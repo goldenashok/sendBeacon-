@@ -8,3 +8,8 @@ To Overcome the above problem we can use the **sendBeacon**
 2. it doesn't block the unloading of the current page
 3. it doesn't wait for the response
 4. The requests will be initiated before a page unloads, even when the browser is closed
+
+>Syntax
+```
+navigator.sendBeacon(url, data)
+```
